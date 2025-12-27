@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "description": "Makan mie ayam yamin",
+    "status": "in-progress",
+    "createdAt": "2025-12-25T17:14:49.42104+07:00",
+    "updatedAt": "2025-12-27T16:49:27.951756+07:00"
+  },
+  {
+    "id": 2,
+    "description": "Pergi kerja",
+    "status": "todo",
+    "createdAt": "2025-12-27T16:47:33.070323+07:00",
+    "updatedAt": null
+  }
+]
