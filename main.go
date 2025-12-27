@@ -36,32 +36,3 @@ func main() {
 		fmt.Println("  task add \"task description\"")
 	}
 }
-
-// command := os.Args[1]
-
-// fmt.Println("command: ", command)
-// switch command {
-// case "add":
-// 	file, err := os.Create("tasks.json")
-// 	if err != nil {
-// 		log.Fatal(err)
-// 	}
-// 	defer file.Close()
-// 	encoder := json.NewEncoder(file)
-// 	encoder.SetIndent("", "")
-
-// 	fmt.Println("add command")
-// case "update":
-// 	fmt.Println("update command")
-// case "delete":
-// 	fmt.Println("delete command")
-// case "mark-in-progress":
-// 	fmt.Println("mark-in-progress command")
-// case "mark-done":
-// 	fmt.Println("mark-done command")
-// case "list":
-// 	// - done
-// 	// - todo
-// 	// - in-progress
-// 	fmt.Println("list command")
-// }

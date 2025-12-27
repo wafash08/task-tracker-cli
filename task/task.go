@@ -115,11 +115,6 @@ func (t *Tasks) MarkDone(id int) error {
 	return t.updateStatus(id, Done.String())
 }
 
-// Listing all tasks
-func (t *Tasks) List() error {
-	return nil
-}
-
 // Listing by status: todo, in-progress, done
 func (t Tasks) ListByStatus(status string) Tasks {
 	var filtered Tasks
